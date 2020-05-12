@@ -18,6 +18,5 @@ RUN apk add --no-cache --virtual .build-deps \
 
 RUN pip install --no-cache-dir fbprophet
 
-
 # removing dependencies
 RUN apk del .build-deps
